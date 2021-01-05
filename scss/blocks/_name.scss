@@ -1,0 +1,42 @@
+.name {
+    display: flex;
+    height: 765px;
+    width: 1600px;
+
+    .name__header-span {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 38px;
+        color: var(--pink-color);
+    }
+    
+    .name__header {
+        font-style: normal;
+        font-weight: 900;
+        text-transform: uppercase;
+        @include font(48px, 58px);
+    }
+    
+    .name__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .name__content {
+        width: 100%;
+        padding: 335px 0 0 64px;
+        background-color: $pink-background;
+    }
+    
+    .name__header::before {
+        position: absolute;
+        content: '';
+        width: 12px;
+        height: 100%;
+        background-color: $pink-color;
+        left: -12px;
+    }
+}
+
