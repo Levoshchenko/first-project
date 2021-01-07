@@ -1,0 +1,80 @@
+.fetured__container {
+    margin-left: 230px;
+    margin-right: 230px;
+    ;
+}
+
+.fetured__text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+
+    @include tablet {
+        margin: 0 0 73px;;
+    }
+}
+
+.fetured__item {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    background-image: url(../img/Background1.png);
+    height: 581px;
+    width: 360px;
+    display: inline-block;
+    padding-left: 16px;
+}
+
+.fetured__item-name {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding-top: 14px;
+    padding-left: 16px;
+}
+
+.fetured_item-category {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-top: 13px;
+    padding-left: 16px;
+}
+
+.fetured_many {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding-top: 18px;
+    padding-left: 16px;
+}
+
+.fetured-title,
+.fetured__text {
+    display: flex;
+    justify-content: center;
+}
+
+.fetured-title {
+    padding-top: 92px;
+    padding-bottom: 6px;
+}
+
+.fetured__text {
+    padding-bottom: 48px;
+}

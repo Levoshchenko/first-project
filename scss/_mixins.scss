@@ -1,0 +1,10 @@
+@mixin font($font-size, $line-height) {
+    font-size: $font-size;
+    line-height: $line-height;
+}
+@mixin tablet {
+    @media (min-width: 768px) and (max-width: 1599px) {
+    @content;
+    
+    }
+}

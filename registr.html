@@ -40,96 +40,45 @@
                 </li>
             </ul>
         </div>
-        <nav class="header__nav-list nav-list">
-            <li class="nav-list__item">
-                <p class="nav-list__title">menu</p> <a href="#" class="nav-list__link">men</a>
-                <ul class="nav-list__sublist nav-sublist">
-                    <li class="nav-sublist__item">Accessories</li>
-                    <li class="nav-sublist__item">Bags</li>
-                    <li class="nav-sublist__item">Denim</li>
-                    <li class="nav-sublist__item">T-Shirts</li>
-                </ul> <a href="#" class="nav-list__link">WOMAN</a>
-                <ul class="nav-list__sublist nav-sublist">
-                    <li class="nav-sublist__item">Accessories</li>
-                    <li class="nav-sublist__item">Jackets & Coats</li>
-                    <li class="nav-sublist__item">Polos</li>
-                    <li class="nav-sublist__item">T-Shirts</li>
-                    <li class="nav-sublist__item">Shirts</li>
-                </ul> <a href="#" class="nav-list__link">KIDS</a>
-                <ul class="nav-list__sublist nav-sublist">
-                    <li class="nav-sublist__item">Accessories</li>
-                    <li class="nav-sublist__item">Jackets & Coats</li>
-                    <li class="nav-sublist__item">Polos</li>
-                    <li class="nav-sublist__item">T-Shirts</li>
-                    <li class="nav-sublist__item">Shirts</li>
-                    <li class="nav-sublist__item"> Bags</li>
-                </ul>
-            </li>
-        </nav>
     </header>
-    <main>
-        <section class="name"> <img class="name__img" src="./img/man-in-jacket.jpg" alt="мужчина в пальто" width="800" height="765">
-            <h1 class="name__header">The brand<br><span class="name__header-span"> of luxxerious fashion</span></h1> </section>
-        <section class="stock_container">
-            <h2 class="visually-hidden">Акции</h2>
-            <ul class="stock__list">
-                <li class="stock__item"> <img class="img_fon" src="./img/stock-women.jpg" alt="women">
-                    <p class="stock__item-name">30% off</p>
-                    <p class="stok__item-category">FOR WOMEN</p>
-                </li>
-                <li class="stock__item"> <img class="img_fon" src="./img/man.png" alt="man-in-jacket">
-                    <p class="stock__item-name">HOT DEAL</p>
-                    <p class="stok__item-category">FOR MEN</p>
-                </li>
-                <li class="stock__item"> <img class="img_fon" src="./img/boy.png" alt="boy">
-                    <p class="stock__item-name">NEW ARRIVALS</p>
-                    <p class="stok__item-category">FOR KIDS</p>
-                </li>
-                <li class="stock__item stock__item--last"> <img class="img_fon" src="./img/foot.png" alt="foot">
-                    <p class="stock__item-name stock__item-name__last">LUXIROUS & TRENDY</p>
-                    <p class="stok__item-category stok_item-category__last">ACCESORIES</p>
-                </li>
-            </ul>
+    <main class="registr">
+        <section class="registr__name">
+            <h1 class="registr__name-title"> REGISTRATION</h1> </section>
+        <section class="registr__form">
+            <div class="registr__form-list">
+                <form action="method" method="POST">
+                    <fieldset class="list__fieldset">
+                        <label class="label" for="name">Your Name</label>
+                        <input class="list__fieldset-text" type="text" id-="name" placeholder="First Name">
+                        <input class="list__fieldset-text" type="text" id-="name" placeholder=" Last Name">
+                        <div class="input__gender"><div class="input_male">
+                            <input type="radio" id="horns" name="horns">
+                            <label class="label-radio" for="horns">Male</label>
+                        </div>
+                        <div class="input_female">
+                            <input type="radio" id="horns" name="horns">
+                            <label class="label-radio" for="horns">Female</label>
+                        </div>
+                        </div>
+                        <label  class="label">Login details
+                            <input class="list__fieldset-text" type="email" placeholder=" Email"> </label>
+                        <input class="list__fieldset-text" type="password" id-="password" placeholder="Password" required> </fieldset>
+                    <p class="form__list-text">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+                    <button class="form__list-button">JOIN NOW → </button>
+                </form>
+            </div>
+            <div class="registr__form-text">
+                <h2 class="registr__form-title">LOYALTY HAS ITS PERKS</h2>
+                <p class="form__title-list"> Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+                <ul class="form__link">
+                    <li class="form__link-list">15% off welcome offer </li>
+                    <li class="form__link-list">Free shipping, returns and exchanges on all orders </li>
+                    <li class="form__link-list">$10 off a purchase on your birthday </li>
+                    <li class="form__link-list">Early access to products</li>
+                    <li class="form__link-list">Exclusive offers & rewards</li>
+                </ul>
+            </div>
         </section>
-        <section class="fetured__container">
-            <h2 class="fetured-title"> Fetured Items</h2>
-            <p class="fetured__text"> Shop for items based on what we featured in this week</p>
-            <ul class="fetured__list">
-                <li class="fetured__item"> <img class="img_fon" src="./img/Rectangle.jpg" alt="men">
-                    <p class="fetured__item-name">ELLERY X M'O CAPSULE</p>
-                    <p class="fetured_item-category">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="fetured_many">$52.00</p>
-                </li>
-                <li class="fetured__item"> <img class="img_fon" src="./img/wonen_02.jpg" alt="women">
-                    <p class="fetured__item-name">ELLERY X M'O CAPSULE</p>
-                    <p class="fetured_item-category">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="fetured_many">$52.00</p>
-                </li>
-                <li class="fetured__item"> <img class="img_fon" src="./img/3.png" alt="boy">
-                    <p class="fetured__item-name">ELLERY X M'O CAPSULE</p>
-                    <p class="fetured_item-category">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="fetured_many">$52.00</p>
-                </li>
-                <li class="fetured__item fetured__item--last"> <img class="img_fon" src="./img/4.png" alt="men">
-                    <p class="fetured__item-name">ELLERY X M'O CAPSULE</p>
-                    <p class="fetured_item-category">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="fetured_many">$52.00</p>
-                </li>
-                <li class="fetured__item fetured__item--last"> <img class="img_fon" src="./img/5.png" alt="women">
-                    <p class="fetured__item-name">ELLERY X M'O CAPSULE</p>
-                    <p class="fetured_item-category">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="fetured_many">$52.00</p>
-                </li>
-                <li class="fetured__item fetured__item--last"> <img class="img_fon" src="./img/6.png" alt="women">
-                    <p class="fetured__item-name">ELLERY X M'O CAPSULE</p>
-                    <p class="fetured_item-category">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="fetured_many">$52.00</p>
-                </li>
-            </ul>
-        </section>
-        <div class="button">
-            <p class="button__text">Browse All Product</p>
-        </div>
     </main>
     <footer class="footer">
         <div class="footer__offer">
