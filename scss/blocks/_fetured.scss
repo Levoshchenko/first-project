@@ -11,6 +11,10 @@
     font-size: 14px;
     line-height: 17px;
     color: #9F9F9F;
+
+    @include tablet {
+        margin: 0 0 73px;;
+    }
 }
 
 .fetured__item {

@@ -146,6 +146,7 @@
     line-height: 167.2%;
     text-align: center;
     color: #222224;
+    list-style-type: none;
 }
 
 .subscribe__email-form {
@@ -153,8 +154,11 @@
     margin-top: 243px;
     height: 36px;
     width: 170px;
+    list-style-type: none;
 }
-
+.fotter__bottom-list {
+    list-style-type: none;
+}
 .fotter__bottom-link {
     font-family: Lato;
     font-style: normal;
@@ -168,6 +172,7 @@
     margin-top: 30px;
     width: 332px;
     height: 19px;
+    list-style-type: none;
 }
 
 .fotter__bottom-icon {
