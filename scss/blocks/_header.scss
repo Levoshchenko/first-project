@@ -35,9 +35,11 @@
 }
 @media (max-width: $desktop-width) {
     .header {
-        .header__container{
-            width: 91.5%;
-        }
+		width: 96%;
+       .header__container {
+		width: 91.5%;
+	}
+        
     }
 }
 
