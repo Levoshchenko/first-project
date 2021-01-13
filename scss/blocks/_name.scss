@@ -2,24 +2,23 @@
 	display: flex;
 	height: 765px;
 	width: 1600px;
-	.name__header-span {
+	.name_img {
+		height: 765px;
+		width: 800px;
+	}
+	name__header-span {
 		font-size: 32px;
 		font-style: normal;
 		font-weight: 700;
 		line-height: 38px;
 		color: var(--pink-color);
 	}
-	.name_img {
-		height: 765px;
-		width: 800px;
-	}
 	.name__header {
+		font-size: 48px;
 		font-style: normal;
 		font-weight: 900;
+		line-height: 58px;
 		text-transform: uppercase;
-		@include font(48px, 58px);
-	}
-	.name__header {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -27,14 +26,14 @@
 	.name__content {
 		width: 100%;
 		padding: 335px 0 0 64px;
-		background-color: $pink-background;
+		background-color: var(--pink-background);
 	}
 	.name__header::before {
 		position: absolute;
 		content: '';
 		width: 12px;
 		height: 100%;
-		background-color: $pink-color;
+		background-color: var(--pink-color);
 		left: -12px;
 	}
 }
@@ -60,4 +59,3 @@
 		}
 	}
 }
-
