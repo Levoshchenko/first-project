@@ -280,7 +280,7 @@ p {
 	font-size: 14px;
 	line-height: 17px;
 	color: var(--gray-text-color);
-	background-image: url(../img/Background1.png);
+	background-image: url(../img/background1.png);
 	height: 581px;
 	width: 360px;
 	display: inline-block;
@@ -913,9 +913,8 @@ p {
 }
 .dropdown-menu{
 	position: absolute;
-	
-
 }
+
 .breadcrumbs {
     margin-left: 46%;
     margin-top: 3%;
@@ -948,60 +947,75 @@ p {
 	margin-bottom: 128px;
 }
 
-
 . @media (max-width: 1599px) {
+	
 	body {
 		width: 100%;
 	}
+	
 	.header {
 		width: 96%;
 	}
+	
 	.header__container {
 		width: 91.5%;
 	}
+	
 	.name {
 		width: 96%;
 	}
+	
 	.name__img {
 		width: 50%;
 		height: auto;
 	}
+	
 	.name__content {
 		padding: 138px 0 0 40px;
 	}
+	
 	.name__header-span {
 		font-size: 24px;
 		line-height: 29px;
 	}
+	
 	.name__header {
 		width: 50%;
 		font-size: 44px;
 		line-height: 52px;
 	}
+	
 	.stock_container {
 		width: 96%;
 		padding: 19px 0 155px;
 	}
+	
 	.stock__list {
 		width: 96%;
 		margin-left: 16px;
 	}
+	
 	.stock__item:not(.stock__item--last) {
 		margin: 0 0 19px;
 	}
+	
 	.img_fon-last {
 		width: 100%;
 	}
+	
 	.fetured__container {
 		width: 96%;
 		min-height: 2050px;
 	}
+	
 	.fetured-title {
 		margin: 154px 0 4px 0;
 	}
+	
 	.fetured__text {
 		padding-bottom: 73px;
 	}
+	
 	.fetured__list {
 		width: 96%;
 		display: flex;
@@ -1009,28 +1023,34 @@ p {
 		justify-content: center;
 		margin: 0 0 0 0;
 	}
+	
 	.fetured__item {
 		width: 46%;
 		margin-left: 16px;
 		margin-bottom: 18px;
 	}
+	
 	.header__nav-list {
 		display: none;
 	}
+	
 	.button {
 		margin-left: 36%;
 		margin-right: 36%;
 		margin-top: 48px;
 		margin-bottom: 65px;
 	}
+	
 	.footer {
 		height: auto;
 		width: 96%;
 	}
+	
 	.footer__offer {
 		width: 100%;
 		min-height: 610px;
 	}
+	
 	.footer__offer-class {
 		display: flex;
 		flex-direction: column;
@@ -1040,12 +1060,14 @@ p {
 		align-items: center;
 		position: revert;
 	}
+	
 	.footer__offer-list {
 		width: 47%;
 		margin-top: 48px;
 		height: auto;
 		padding: 0px;
 	}
+	
 	.footer__offer-list2 {
 		width: 47%;
 		margin-top: 230px;
@@ -1053,6 +1075,7 @@ p {
 		height: auto;
 		padding: 0px;
 	}
+	
 	.footer__offer-list3 {
 		width: 47%;
 		margin-top: 412px;
@@ -1060,27 +1083,32 @@ p {
 		height: auto;
 		padding: 0px;
 	}
+	
 	.footer__subscribe {
 		min-height: 614px;
 		width: 96%;
 		background-repeat: round;
 	}
+	
 	.img_fon-list {
 		width: 100%;
 		height: 72%;
 	}
+	
 	.footer__subscribe-list {
 		margin-top: 64px;
 		left: 40%;
 		margin-left: 0px;
 		padding: 0 0 0 0;
 	}
+	
 	.footer__subscribe-email {
 		left: 33%;
 		top: 48%;
 		margin: 0 0 0 0;
 		padding: 0 0 0 0;
 	}
+	
 	.subscribe__email {
 		left: 30%;
 		display: inline-block;
@@ -1089,23 +1117,28 @@ p {
 		width: 42%;
 		min-height: 49px;
 	}
+	
 	.email__button {
 		left: 90%;
 	}
+	
 	.footer__bottom {
 		width: 96%;
 		margin-top: 614px;
 	}
+	
 	.fotter__bottom-list {
 		justify-content: flex-end;
 		width: 96%;
 		padding: 0px;
 		margin: 0 0 0 0;
 	}
+	
 	.fotter__bottom-link {
 		margin-left: 4%;
 		width: 96%;
 	}
+	
 	.fotter__bottom-icon {
 		position: absolute;
 		padding-left: 0px;

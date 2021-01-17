@@ -1,5 +1,6 @@
 fetured__container {
 	width: 1600px;
+	
 	.fetured__text {
 		font-family: Lato;
 		font-style: normal;
@@ -9,11 +10,13 @@ fetured__container {
 		color: var(--gray-text-color);
 		margin-top: 6px;
 	}
+	
 	.fetured__list {
 		padding-inline-start: 0px;
 		margin-left: 230px;
 		margin-right: 230px;
 	}
+	
 	.fetured__item {
 		font-family: Lato;
 		font-style: normal;
@@ -26,6 +29,7 @@ fetured__container {
 		width: 360px;
 		display: inline-block;
 	}
+	
 	.fetured__item-name {
 		font-family: Lato;
 		font-style: normal;
@@ -38,6 +42,7 @@ fetured__container {
 		margin-block-start: 0em;
 		margin-block-end: 0em;
 	}
+	
 	.fetured_item-category {
 		font-family: Lato;
 		font-style: normal;
@@ -52,6 +57,7 @@ fetured__container {
 		height: 51px;
 		width: 315px;
 	}
+	
 	.fetured_many {
 		font-family: Lato;
 		font-style: normal;
@@ -64,6 +70,7 @@ fetured__container {
 		margin-block-start: 0em;
 		margin-block-end: 0em;
 	}
+	
 	.fetured-title,
 	.fetured__text {
 		display: flex;
@@ -71,10 +78,12 @@ fetured__container {
 		margin-block-start: 0em;
 		margin-block-end: 0em;
 	}
+	
 	.fetured-title {
 		padding-top: 92px;
 		padding-bottom: 6px;
 	}
+	
 	.fetured__text {
 		padding-bottom: 48px;
 	}
@@ -85,12 +94,15 @@ fetured__container {
 		width: 96%;
 		min-height: 2050px;
 	}
+	
 	.fetured-title {
 		margin: 154px 0 4px 0;
 	}
+	
 	.fetured__text {
 		padding-bottom: 73px;
 	}
+	
 	.fetured__list {
 		width: 96%;
 		display: flex;
@@ -98,6 +110,7 @@ fetured__container {
 		justify-content: center;
 		margin: 0 0 0 0;
 	}
+	
 	.fetured__item {
 		width: 46%;
 		margin-left: 16px;
