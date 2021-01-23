@@ -853,6 +853,7 @@ p {
 	color: #F16D7F;
 	text-align: center;
 	margin-top: 60px;
+	text-transform: uppercase;
 }
 
 .collection__list-title {
@@ -864,6 +865,7 @@ p {
 	text-align: center;
 	color: #4D4D4D;
 	padding-top: 27px;
+	text-transform: uppercase;
 }
 
 .collection__list-text {
@@ -898,10 +900,43 @@ p {
 	margin-bottom: 65px;
 }
 
+.btn {
+	text-transform: uppercase;
+	font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+	color: var(--gray);
+}
+
 .btn-groups {
 	margin-left: 30%;
-	margin-right: 32%;
+	margin-right: 30%;
 	margin-bottom: -bottom: 49px;
+	text-transform: uppercase;
+}
+
+.dropdown-menu {
+	color: var(--gray);
+	text-transform: uppercase;
+	font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.btn:hover +.dropdown-menu {
+	display: block;
+}
+
+.dropdown-menu {
+	display: none;
+}
+
+.dropdown-menu:hover {
+	display: block;
 }
 
 .btn-outline-danger {
@@ -911,23 +946,42 @@ p {
 	margin-top: 49px;
 	width: 20%;
 }
-.dropdown-menu{
+.dropdown-menu {
 	position: absolute;
+	text-transform: uppercase;
 }
 
 .breadcrumbs {
-    margin-left: 46%;
-    margin-top: 3%;
-    display: inline;
-    margin-right: 14%;
-    width: 209px;
-    text-decoration: none;
-    color: var(--gray-color);
-    background-color: var(--pink-background);
+	margin-left: 46%;
+    margin-top: 4%;
+    justify-content: center;
+    align-items: center;
 }
 
-.breadcrumb-item active {
+.breadcrumbs__list {
+    text-decoration: none;
+}
+
+.breadcrumbs-item {
+	display: inline-block;
+	color: var(--gray-color);
+	font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;	
+	text-transform: uppercase;
+}
+
+.breadcrumbs-item-last {
+	display: inline-block;
 	color: var(--pink-color);
+	font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+	text-transform: uppercase;
 }
 
 .collection {
@@ -945,6 +999,10 @@ p {
 
 .product__list {
 	margin-bottom: 128px;
+}
+
+.carousel-control-next-icon {
+	background-color: var(--pink-color);
 }
 
 . @media (max-width: 1599px) {
